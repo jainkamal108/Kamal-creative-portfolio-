@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kamal Jain – AI-Powered Creative Services</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
@@ -22,28 +22,56 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I offer creative services using the power of AI – from horror scriptwriting and resume writing to eBook creation and faceless content production. All content is custom, engaging, and crafted to deliver impact.</p>
+        <p>I provide professional AI-enhanced creative services, including horror writing, resume creation, ebooks, and faceless content for digital platforms.</p>
     </section>
 
     <section id="services">
         <h2>Services</h2>
         <ul>
-            <li>👻 Horror Tale Writing (English & Hindi)</li>
-            <li>📝 Resume Writing (Professional & Modern)</li>
-            <li>📚 eBook Writing (Any niche)</li>
-            <li>🎬 Faceless Content Creation</li>
+            <li>👻 Horror Tale Writing (Hindi & English)</li>
+            <li>📝 Resume Writing</li>
+            <li>📚 eBook Creation</li>
+            <li>🎬 Faceless Content Scripts</li>
         </ul>
     </section>
 
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Samples available upon request. Coming soon...</p>
+        <h2>Portfolio Samples</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Horror+Script" alt="Horror Script Sample"/>
+                <p>Sample Horror Tale</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=Resume+Sample" alt="Resume Sample"/>
+                <p>Resume Design</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://via.placeholder.com/300x200?text=eBook+Cover" alt="eBook Sample"/>
+                <p>eBook Sample</p>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
+        <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact" />
+            <p><input type="text" name="name" placeholder="Your Name" required /></p>
+            <p><input type="email" name="email" placeholder="Your Email" required /></p>
+            <p><textarea name="message" placeholder="Your Message" required></textarea></p>
+            <p><button type="submit">Send</button></p>
+        </form>
         <p>Email: <a href="mailto:uniquethings108@gmail.com">uniquethings108@gmail.com</a></p>
-        <p>Fiverr / Upwork / Instagram Links Coming Soon</p>
+    </section>
+
+    <section id="social">
+        <h2>Find Me Online</h2>
+        <div class="social-links">
+            <a href="#" target="_blank">Fiverr (Coming Soon)</a> |
+            <a href="#" target="_blank">Upwork (Coming Soon)</a> |
+            <a href="#" target="_blank">Instagram (Coming Soon)</a>
+        </div>
     </section>
 
     <footer>
